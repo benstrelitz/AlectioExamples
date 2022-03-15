@@ -1,8 +1,0 @@
-imdb_reviews.csv
-test.csv
-train.csv
-train_orig.csv
-log/
-.data/
-.vector_cache/
-amazon_review_full_csv/
