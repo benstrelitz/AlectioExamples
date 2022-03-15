@@ -1,0 +1,20 @@
+sample_payload: 'sample_payload.json'
+EXPT_DIR : "./log"
+DATA_DIR : "./data"
+WEIGHTS_DIR : "./weights"
+exp_name: "random"
+
+### TRAIN FUNCTION ARGS ###
+train_epochs: 1
+batch_size: 64
+learning_rate: 1e-4
+split_train: 0.80
+MAX_VOCAB_SIZE: 25000
+EMBEDDING_DIM: 100
+HIDDEN_DIM: 256
+N_LAYERS: 2
+DROPOUT: 0.5
+train_size: 800
+test_size: 200
+DATASET: "IMDB"
+#AMAZON_DATSET_TRAINING_RATIO: 0.03
